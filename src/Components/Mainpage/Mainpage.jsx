@@ -19,8 +19,8 @@ export default function Mainpage() {
       <Navbar />
       <div id="map">
         <MapContainer
-          center={[51.505, -0.09]}
-          zoom={13}
+          center={[39.606, -105.9583]}
+          zoom={15}
           scrollWheelZoom={false}
         >
           <TileLayer
@@ -32,9 +32,10 @@ export default function Mainpage() {
               A pretty CSS3 popup. <br /> Easily customizable.
             </Popup>
           </Marker>
+          <div className="login--placement">
+            <Login />
+          </div>
         </MapContainer>
-
-        <Login />
       </div>
     </div>
   );

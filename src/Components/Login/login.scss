@@ -6,8 +6,8 @@
   background-color: lightgreen;
   height: 400px;
   width: 400px;
-  margin: 200px;
-  margin-left: 40%;
+  position: absolute;
+  z-index: 9999;
 }
 
 .login__display {

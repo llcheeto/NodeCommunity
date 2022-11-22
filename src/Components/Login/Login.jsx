@@ -4,7 +4,7 @@ import { TextField, Button } from "@mui/material";
 
 export default function Login() {
   return (
-    <div className="login--container login__display">
+    <div className="login--container">
       <form onSubmit="">
         <div>
           <TextField
