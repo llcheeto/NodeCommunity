@@ -7,8 +7,23 @@
   height: 400px;
   width: 400px;
   margin: 200px;
+  margin-left: 40%;
 }
 
 .login__display {
-  display: hidden;
+  display: none;
+}
+
+.login--field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
